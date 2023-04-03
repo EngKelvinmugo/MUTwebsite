@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{ background-image:url("admission.mut.projo.jpg");
+                  background-repeat:no-repeat;
+                  background-position:absolute;
+                  background-attachment:center;}
+        </style>
+    </head>
+    <body>
+        <h>Genjeness</h>
+    </body>
+</html>

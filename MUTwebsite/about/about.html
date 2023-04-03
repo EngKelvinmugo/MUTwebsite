@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-width=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <style>
+ .flex-container{
+                      display:flex;
+                      background-color: rgb(63, 18, 77);
+                      border:1 px solid black;
+                      cursor:pointer;
+                      justify-content: space-between;
+                      }
+     a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}  
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;}
+
+    .flex-container > div {
+                             background-color: rgb(63, 18, 77);
+                             
+                             font-family:courier;
+                             box-sizing:border-box;
+                             border:none;
+                             justify-content:space-between;
+                             }
+                             
+              .border{ background-color:dodger rgb(226, 226, 224);
+                       box-sizing:border-box;
+                       border:none;
+                       padding: 1px 1px;
+                       justify-content: space-between;
+                       
+                       }
+               .border2{  
+                          background-color:dodger rgb(205, 226, 12);          
+                          box-sizing:border;
+                          border: none;
+                          }
+              
+    nav{ display:inline-flex;
+         
+
+    }
+    .cena:hover{
+      background-color: whitesmoke;
+    }
+    .cena{
+      background-color: rgb(63, 18, 77) ;
+      border-color:  rgb(63, 18, 77);
+    justify-content: space-between;}
+    
+  .item1{grid-area: header;}
+  .item2{grid-area: main;}
+  .item3{grid-area: footer;}
+  .grid-container{display:grid;
+                  grid-template-areas: '.header header header header header header'
+                                        '.main  main main main main main'
+                                        '.footer footer footer footer footer footer ' ;
+                  border:none;
+                  padding:5px; 
+                  background-color:  rgb(63, 18, 77);}
+  .grid-container > div {  text-align: center;
+                           padding:5px;}
+                           .btn-group .button{
+  background-color:  rgb(63, 18, 77);
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding:20px 30px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+  font-size: 20px;
+  border:none;
+  float : left;
+}
+.btn-group .button1{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button1:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button2{
+  background-color:  rgb(63, 18, 77));
+  color:white;
+}
+.btn-group .button2:hover{
+  background-color: white;
+  color:black;
+}
+.btn-group .button3{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button3:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button4{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button4:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button5{
+  background-color:  rgb(63, 18, 77);  
+  color:white;
+}
+.btn-group .button5:hover{
+  background-color:white;
+  color:black;
+}
+#icon{
+  background-color:   rgb(63, 18, 77);
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.btn-group .button6{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+  
+}
+.btn-group .button6:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button7{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button7:hover{
+  background-color: white;
+  color:black;
+}
+
+.hero-image{
+    background-image:url("about11.jpg");
+    background-position:absolute;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size:cover;
+    height:600px;
+    width:100%;
+
+}
+.hero-text{
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:rgb(7, 25, 190);
+    position:relative;
+}
+.grid-containers{
+    display:grid;
+    grid-template-areas:'left left left left right right ';
+    text-align:center ;
+    background-image:url("about13.jpeg");
+    color:rgb(0, 0, 0);
+    padding:20px 35px;
+    background-position:absolute;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size:cover;
+    height:600px;
+    
+    
+    
+}
+.grid-containers > div{
+    border:none;
+    text-align:center;
+    padding:10px;
+    
+} 
+.items1{grid-area:left;
+    width:75%;
+}
+.items2{grid-area:right;
+    width:55%;
+}
+
+
+.grey-div{
+    display:grid;
+    border:none;
+    padding:15px ;
+    background-color:gray;
+    color:rgb(7, 0, 0);
+    grid-template-areas:'left left main main right right';
+
+}
+.grey-div > {
+  text-align:center;
+  color:white;
+  padding :15px;
+}
+.grey1{ grid-area:left;}
+.grey2{ grid-area:main;}
+.grey3{ grid-area:right;}
+.cartis{ 
+     display:grid;
+     background-color: rgb(5, 40, 107);
+     grid-template-areas:'left main menu right';
+     padding:15px;
+     border:none;
+    
+}
+ .cartis > div{
+    color:white;
+    text-align:center;
+    }
+.cartis1{ grid-area:left;}
+.cartis2{ grid-area:main;}
+.cartis3{ grid-area:menu;}
+.cartis4{ grid-area: right;}
+a :link{ color:antiquewhite;
+          text-decoration:none;
+          background-color:rgb(5, 139, 23);
+}
+
+       </style>
+       <title>Murang'a University of Technology </title>
+    </head>
+    <body>
+        <div class="flex-container border" >
+            <div><p style="color:antiquewhite;"><button type="button" class="btn btn-link"><span class="bi bi-envelope-open"></span></button>info@mut.ac.ke<button type="button" class="btn btn-link"><span class="bi bi-telephone-fill"></span>+254 778-254-345</p></div>
+            <nav class="nav">
+            <button class="cena" ><div1 class="border" style="color:antiquewhite" ><a href="#" >Staff</a></div1></button><br>
+            
+                    <button class="cena"><div2 class="border"style="color:antiquewhite" ><a href="#" id="cena">Student portal</a></div2></button><br>
+                    <button class="cena"><div3 class="border"style="color:antiquewhite"><a href="#" id="cena">Masomo portal</a></div3></button><br>
+                    <button class="cena"><div4 class="border"style="color:antiquewhite"><a href="#" id="cena">Del</a></div4></button><br>
+                    <button class="cena"><div5 class="border"style="color:antiquewhite"><a href="#" id="cena">Alumni</a></div5></button><br>
+                    <button class="cena"><div6 class="border" style="color:antiquewhite"><a href="#" id="cena">Career Opportunities</a></div6></button>><br>
+                    <button class="cena"><div7 class="border"style="color:antiquewhite"><a href="#" id="cena">Tender</a></div7></button></nav><br>
+                                                            
+            <div8 class="border"style="color:antiquewhite"><button type="button" class="btn btn-light"><span class="bi bi-facebook"></span><button></div8>
+            <div9 style="color:rgb(199, 127, 32)"><button typr="button" class="btn btn-primary"><span class="bi bi-linkedin"></span><button></div9>
+            <div10 style="color:rgb(185, 118, 29)"><button type="button" class="btn btn-primary"><span class="bi bi-twitter"></span></button></div10>
+            <div11 style="color:rgb(199, 135, 50)" ><button type="button" class="btn btn-primary"><span class="bi bi-instagram"></span></button></div11>
+            <div12 class="border2" style="background-color:rgb(63, 18, 77);flex-grow:2;color:antiquewhite">MUT REPOSITORY</div12>
+            </div>
+            <div class="grid-container">
+              <div class="item1" >
+                <img src="mut.icon.png" style="width:50px;height:60px;float:left"><p style="color:white;font-weight:bolder;font-size:larger;">Murang'a University Of Technology</p>
+              </div>
+              <div class="btn-group" id="icon">
+                  <a href="/index.html"> <button class="button button1" ::hover>Home</button></a>
+                  <a href="/about/about.html"><button class="button button2"::hover>About</button></a>
+                  <a href="/academics/academics.html">  <button class="button button3"::hover>Academics</button></a>
+                  <a href="/admissions/admission.html"> <button class="button button4"::hover>Admissions</button></a>
+                  <a href="/research/research.html"> <button class="button button5"::hover>Research</button></a>
+                  
+                  <a href="/library/library.html"> <button class="button button7"::hover>Library</button></a>
+                  </div>
+            
+            </div>
+        </div>
+
+        <div class="hero-image" style="background-image: url('about11.jpg')">
+            <div class="hero-text">
+            </div>
+        </div>
+        <div class="grid-containers" >
+            <div class="items1">
+               <u> <h style="font-size:25px;">Murang'a University of Technology History</h></u><br><br><br>
+                <p style="font-size:15px;"> Murang’a University of Technology (MUT) was chartered on October 7th, 2016 at Statehouse, Nairobi by H.E. Hon. Uhuru Kenyatta, C.G.H., President and Commander-in-Chief of the Defense Forces of the Republic of Kenya. Following the award of the charter, MUT became one of the thirty-one (31) Chartered Public Universities in Kenya. The University operates under the provisions of the Universities Act, 2012 (Rev. 2016), guidelines issued by the Commission for University Education, University Charter, and Statues</p><br><br>
+                <p style="font-size:15px">Murang’a University of Technology, formerly Murang’a University College (MRUC), was established through Legal Notice No.129 of September 2011 as a Constituent College of Jomo Kenyatta University of Agriculture and Technology (JKUAT). Murang’a University College was a successor to Murang’a College of Technology (MCT), established in 1975.</p><br><br><br>
+                <p style="font-size:15px;">The University lies on 60 acres of land, 1.5 km east of Murang’a Town, in Murang’a County. It is about 85 km North-East of Nairobi, 70 km southeast of Nyeri, and 50 km southwest of Embu.</p><br><br><br>
+                <p style="font-size:15px;">The founding University Council was inaugurated on November 6th, 2012. The third Council appointed in August 2017 governs the University. The University has successfully held four (4) graduation ceremonies in 2017, 2018, 2019, and 2020.</p><br><br>
+                <p style="font-size:15px;">Murang’a University of Technology is committed to providing high quality education and training, producing competent graduates and endeavors to excel in areas of Teaching, Training, Learning, Research and Innovation, Extension and Consultancy Services to achieve its mandate.</p><br><br><br>
+
+            </div>
+            <div class="items2">
+                <p style="font-size:15px;">The University is ISO 9001:2015 certified. Because our processes and systems follow internationally accepted standards, we are extremely confident that MUT remains faithful in delivering quality education. Being ISO 9001:2015 certified is a proof that our students are assured of an outstanding education backed up with processes that comply with international standards. The standard provides guidance and tools that ensure our products and services consistently meet customers’ requirements, and that quality is continually improved.</p><br><br>
+                <p style="font-size:15px;">The University currently offers graduate and undergraduate degrees, diplomas and certificates in Engineering, Information Technology, Computer Science, Pure and Applied Sciences, Business and Economics, Hospitality and Tourism Management, Education, Health Sciences, Humanities and Social Sciences, and Agriculture and Environmental Sciences. In addition, the University offers the competency-based curriculum for Technical and Vocational Education Training (TVET).</p><br><br>
+            </div>
+        </div><br><br><br><br><br>
+        <div class="grey-div">
+            <div class="grey1">
+                <h style="color:green;font-size:25px;font-weight:bold;">Our Philosophy</h><br><br>
+                <p>Murang’a University of Technology is committed to knowledge creation and advancement through innovative strategies and technologies for prosperity.</p>
+            </div>
+            <div class="grey2">
+                <h style="color:green;font-size:25px;font-weight: bold;">Our Mission</h><br><br><br>
+                <p>To advance knowledge and technological transfer through teaching, training, learning, research, and innovation for sustainable development.</p><br>
+
+
+            </div>
+            <div class="grey3">
+                <h style="color:green;font-size:25px;font-weight:bold;">Our Vision</h><br><br><br>
+                <p>A Leading University in Technological Innovation, Research, and Training.</p>
+            </div>
+        </div>
+        <div class="cartis">
+            <div class="cartis1">
+                <address>
+                    P.O Box 75-10200<br>
+                    Muranga, Kenya<br>
+                    Email: info@mut.ac.ke<br>
+                    Tell: +254-771-370-824<br>
+                    Open: Monday to Friday 8 am to 5 pm<br>
+                    Closed: Weekends & Public Holidays<br>
+
+
+                </address>
+                </div>>
+                <div class="cartis2">
+                   <p> Quick Links</p><br><br><br>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Career Opportunities</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Meeting Scheduler</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Work Study (Students)</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Corruption Reporting</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>IS Policy Statement</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Student Request Forms</p></a>    
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Web Update Request Form</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Stakeholders Feedback Form</p></a>
+                </div>
+                <div class="cartis3">
+                   <p> Campus Life</p><br><br><br>
+                   <a href="#" style="color:green;text-decoration-line: none;"><p>Clubs & Societies</p></a>
+                   <a href="#" style="color:green;text-decoration-line: none;"><p>Student Timetables</p></a>
+                   <a href="#" style="color:green;text-decoration-line: none;"><p>Hostel & Accommodation</p></a>
+                   <a href="#" style="color:green;text-decoration-line: none;"><p>Masomo Portal Student User Manual</p></a>
+                   <a href="#" style="color:green;text-decoration-line: none;"><p>Masomo Portal Lecturer Manual</p></a>
+                </div>
+                <div class="cartis4">
+                    <p>MUT Portals</p><br><br><br>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Library</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>ICT Helpdesk</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Masomo Portal</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;">Staff / Student Mail</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>Staff & Student Portal</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>MUT Web Conference</p></a>
+                    <a href="#" style="color:green;text-decoration-line: none;"><p>KENNET Web Conference</p></a>
+
+
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

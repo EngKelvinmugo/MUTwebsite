@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-width=1.0">
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+       <title> Murang'a University of Technology </title>
+       <style>
+             .flex-container{
+                      display:flex;
+                      background-color: rgb(63, 18, 77);
+                      border:1 px solid black;
+                      cursor:pionter;
+                      justify-content: space-between;
+                      }
+     a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}  
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;}
+
+    .flex-container > div {
+                             background-color: rgb(63, 18, 77);
+                             
+                             font-family:courier;
+                             box-sizing:border-box;
+                             border:none;
+                             justify-content:space-between;
+                             }
+                             
+              .border{ background-color:dodger rgb(226, 226, 224);
+                       box-sizing:border-box;
+                       border:none;
+                       padding: 1px 1px;
+                       justify-content: space-between;
+                       
+                       }
+               .border2{  
+                          background-color:dodger rgb(205, 226, 12);          
+                          box-sizing:border;
+                          border: none;
+                          }
+              
+    nav{ display:inline-flex;
+         
+
+    }
+    .cena:hover{
+      background-color: whitesmoke;
+    }
+    .cena{
+      background-color: rgb(63, 18, 77) ;
+      border-color:  rgb(63, 18, 77);
+    justify-content: space-between;}
+    
+  .item1{grid-area: header;}
+  .item2{grid-area: main;}
+  .item3{grid-area: footer;}
+  .grid-container{display:grid;
+                  grid-template-areas: '.header header header header header header'
+                                        '.main  main main main main main'
+                                        '.footer footer footer footer footer footer ' ;
+                  border:none;
+                  padding:5px; 
+                  background-color:  rgb(63, 18, 77);}
+  .grid-container > div {  text-align: center;
+                           padding:5px;}
+                           .btn-group .button{
+  background-color:  rgb(63, 18, 77);
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding:20px 30px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+  font-size: 20px;
+  border:none;
+  float : left;
+}
+.btn-group .button1{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button1:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button2{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button2:hover{
+  background-color: white;
+  color:black;
+}
+.btn-group .button3{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button3:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button4{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button4:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button5{
+  background-color:  rgb(63, 18, 77);  
+  color:white;
+}
+.btn-group .button5:hover{
+  background-color:white;
+  color:black;
+}
+#icon{
+  background-color:   rgb(63, 18, 77);
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.btn-group .button6{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+  
+}
+.btn-group .button6:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button7{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button7:hover{
+  background-color: white;
+  color:black;
+}
+            .div{
+                background-image:url("library2.webp");
+                background-position:absolute;
+                background-attachment:var(100%);
+                background-size:cover;
+                background-repeat:no-repeat;
+                width:100%;
+                border:none;
+                height:340px;
+                align-content:center;
+            }
+            .element::-webkit-scrollbar { width: 0 !important }
+            .grid-containerz{
+                display:grid;
+                grid-template-areas:'.left left right right';
+                border:none;
+            }
+            .item1{grid-area:left;}
+            .item2{grid-area:right;}
+            .grid-container2{
+                display:grid;
+                grid-template-areas:'.left left right right'
+                                    '.men  men  ken   ken';
+                background-color:rgb(99, 86, 86);
+                gap:20px;
+                border:none;
+                justify-content:space-around;
+               
+            }
+            .tem1{grid-area:left;
+                  margin-bottom: 4px;
+                  padding:10px;
+                  border:1px solid white;
+                  background-color: white;}
+            .tem2{grid-area:men;
+                  margin:4px;
+                  padding:10px;
+                  border:1px solid white;
+                  background-color: white;}
+            .tem3{grid-area:right;
+                  margin-bottom: 4px;
+                  padding:10px;
+                  border:1px solid white;
+                  background-color: white;}
+            .tem4{grid-area:ken;
+                  margin:4px;
+                  padding:10px;
+                  background-color: white;
+                  border:1px solid white;}
+                  .cartis{ 
+     display:grid;
+     background-color: rgb(7, 12, 19);
+     grid-template-areas:'left main menu right';
+     padding:15px;
+     border:none;
+    
+}
+                  .cartis > div{
+                                color:white;
+                                text-align:center;
+                                  }
+.cartis1{ grid-area:left;}
+.cartis2{ grid-area:main;}
+.cartis3{ grid-area:menu;}
+.cartis4{ grid-area: right;}
+.a :link{ color:antiquewhite;
+          text-decoration:none;
+          background-color:rgb(221, 221, 213);
+}
+.a :visited{ color:rgb(243, 238, 238);
+             text-decoration:none;
+            background-color:transparent;}
+.a :active{ color:rgb(204, 204, 163);
+            text-decoration:underline;
+            background-color:transparent;
+            }
+    .ragna{
+        background-image:url("lib22.jpg");
+        background-repeat:no-repeat;
+        background-position:absolute;
+        background-size:cover;
+        background-attachment:scroll;
+    }
+    div.gallery{
+        margin:4px;
+        border: none;
+        float:right;
+        width:180px;
+    }
+    div.gallery:hover{
+        background-color:rgba(71, 71, 82, 0.3);
+    }
+    div.gallery img{
+        width:100%;
+    }
+
+        </style>
+    </head>
+    <body>
+        <div class="flex-container border" >
+            <div><p style="color:antiquewhite;"><button type="button" class="btn btn-link"><span class="bi bi-envelope-open"></span></button>info@mut.ac.ke<button type="button" class="btn btn-link"><span class="bi bi-telephone-fill"></span>+254 778-254-345</p></div>
+            <nav class="nav">
+            <button class="cena" ><div1 class="border" style="color:antiquewhite" ><a href="#" >Staff</a></div1></button><br>
+            
+                    <button class="cena"><div2 class="border"style="color:antiquewhite" ><a href="#" id="cena">Student portal</a></div2></button><br>
+                    <button class="cena"><div3 class="border"style="color:antiquewhite"><a href="#" id="cena">Masomo portal</a></div3></button><br>
+                    <button class="cena"><div4 class="border"style="color:antiquewhite"><a href="#" id="cena">Del</a></div4></button><br>
+                    <button class="cena"><div5 class="border"style="color:antiquewhite"><a href="#" id="cena">Alumni</a></div5></button><br>
+                    <button class="cena"><div6 class="border" style="color:antiquewhite"><a href="#" id="cena">Career Opportunities</a></div6></button>><br>
+                    <button class="cena"><div7 class="border"style="color:antiquewhite"><a href="#" id="cena">Tender</a></div7></button></nav><br>
+                                                            
+            <div8 class="border"style="color:antiquewhite"><button type="button" class="btn btn-light"><span class="bi bi-facebook"></span><button></div8>
+            <div9 style="color:rgb(199, 127, 32)"><button typr="button" class="btn btn-primary"><span class="bi bi-linkedin"></span><button></div9>
+            <div10 style="color:rgb(185, 118, 29)"><button type="button" class="btn btn-primary"><span class="bi bi-twitter"></span></button></div10>
+            <div11 style="color:rgb(199, 135, 50)" ><button type="button" class="btn btn-primary"><span class="bi bi-instagram"></span></button></div11>
+            <div12 class="border2" style="background-color:rgb(63, 18, 77);flex-grow:2;color:antiquewhite">MUT REPOSITORY</div12>
+            </div>
+            <div class="grid-container">
+              <div class="item1" >
+                <img src="muticon12.png"  style="width:50px;height:60px;float:left"><p style="color:white;font-weight:bolder;font-size:larger;">Murang'a University Of Technology</p>
+              </div>
+              <div class="btn-group" id="icon">
+                  <a href="/index.html"> <button class="button button1" ::hover>Home</button></a>
+                  <a href="/about/about.html"><button class="button button2"::hover>About</button></a>
+                  <a href="/academics/academics.html">  <button class="button button3"::hover>Academics</button></a>
+                  <a href="/admissions/admission.html"> <button class="button button4"::hover>Admissions</button></a>
+                  <a href="/research/research.html"> <button class="button button5"::hover>Research</button></a>
+                  
+                  <a href="/library/library.html"> <button class="button button7"::hover>Library</button></a>
+                  </div>
+            
+            </div>
+        </div>
+<div class="div">
+    <h style="text-align:center;font-weight:bold;font-size:70px;color:white;float:center;">LIBRARY</h>
+</div><br>
+<div class="grid-containerz">
+    <div class="item1">
+        <img src="librarian12.jpeg" width="400px" length="375px"><hr><br>
+        <h style="font-size:30px;font-weight:bolder;color:blue;">Samantha M. William</h><br><br>
+        <h style="font-size:large;font-weight:bold;color:green;">The University Librarian</h><br><br><br>
+        <hr>
+    </div>
+    <div class="item2">
+        <h style="font-size:34px;color:aqua;">A welcome message from the University Librarian</h><hr>
+        <p>The Murang’a University of Technology (MUT) Library has continued to expand its resources in order to cater to<br>the growing population of students. At the main campus, library resources have continued to be expanded and<br>enhanced. The library, which can accommodate 600 users, is equipped with computers and wireless access points<br>or Internet access. The library has a collection of over 30,000 textbooks and 180,427 e-books. It also subscribes<br>to 21 electronic databases which provide students with access to millions of journals. The subscription is done<br>through the Kenya Library and Information Ser- vices Consortium.</p><br>
+        <p>Access to these resources is done through the Online Public Access Catalogue (OPAC) which facilitates the<br>discovery of books by allowing for online search of the books. Publications by faculty and staff at MUT are centrally<br>curated in the institutional repository. Currently, the repository contains 5,863 different digital resources. This move<br>is geared towards facilitating research collaboration and increasing the visibility and citation of research articles.</p><br>
+        <p>The Library provides services for both online and offline users. Its off-campus access is a popular product among<br>students and staff. In a recent survey, it was established that the most popular databases with users were IEE<br>which had 785 downloads followed by Emerald with 398 downloads.</p><br>
+        <p>n 2022, MUT established a campus library at Mariira. The library is equipped with books on Agriculture and related<br>subjects offered on the new campus. Other information services enjoyed at the main campus library will also be<br>provided at Mariira Campus.</p><br>
+        <p>The Library is committed to supporting the academic pursuits at the University. It is poised to become an academic<br>hub which is the focal point for students and faculty.</p><br>
+
+    </div>
+</div>
+<hr>
+<div class="grid-container2">
+    <div class="tem1">
+        <h style="font-size:30px;font-weight:bold;color:blue">E-resources subscribed to by MUT for 2023</h><br><br>
+        <a href="#" style="color:red;font-size: large;font-weight: bold;">Learn More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></a>
+    </div>
+    <div class="tem2">
+        <h style="font-size:30px;font-weight:bold;color:blue">User guide on how to access e-resources</h><br><br>
+        <a href="#" style="color:red;font-size: large;font-weight: bold;">Learn More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></a>
+        </div>
+    <div class="tem3">
+        <h style="font-size:30px;font-weight:bold;color:red">MUT Repository</h><br><br>
+        <a href="#" style="color:green;font-size: large;font-weight: bold;">Learn More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></a>
+    </div>
+    <div class="tem4">
+        <h style="font-size:30px;font-weight:bold;color:red">OPAC</h><br><br>
+        <a href="#" style="color:green;font-size: large;font-weight: bold;">Learn More<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></a>
+    </div>
+</div>
+<div class="cartis">
+    <div class="cartis1">
+        <address>
+            P.O Box 75-10200<br>
+            Muranga, Kenya<br>
+            Email: info@mut.ac.ke<br>
+
+            Tell: +254-771-370-824<br>
+
+            Open: Monday to Friday 8 am to 5 pm<br>
+            Closed: Weekends & Public Holidays
+
+
+        </address>
+        </div>>
+        <div class="cartis2">
+           <p> Quick Links</p><br><br>
+            <a href="#"><p>Career Opportunities</p></a>
+            <a href="#"><p>Meeting Scheduler</p></a>
+            <a href="#"><p>Work Study (Students)</p></a>
+            <a href="#"><p>Corruption Reporting</p></a>
+            <a href="#"><p>IS Policy Statement</p></a>
+            <a href="#"><p>Student Request Forms</p></a>    
+            <a href="#"><p>Web Update Request Form</p></a>
+            <a href="#"><p>Stakeholders Feedback Form</p></a>
+        </div>
+        <div class="cartis3">
+           <p> Campus Life</p><br><br>
+           <a href="#"><p>Clubs & Societies</p></a>
+           <a href="#"><p>Student Timetables</p></a>
+           <a href="#"><p>Hostel & Accommodation</p></a>
+           <a href="#"><p>Masomo Portal Student User Manual</p></a>
+           <a href="#"><p>Masomo Portal Lecturer Manual</p></a>
+        </div>
+        <div class="cartis4">
+            <p>MUT Portals</p><br><br>
+            <a href="#"><p>Library</p></a>
+            <a href="#"><p>ICT Helpdesk</p></a>
+            <a href="#"><p>Masomo Portal</p></a>
+            <a href="#">Staff / Student Mail</p></a>
+            <a href="#"><p>Staff & Student Portal</p></a>
+            <a href="#"><p>MUT Web Conference</p></a>
+            <a href="#"><p>KENNET Web Conference</p></a>
+
+
+
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

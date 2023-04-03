@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-width=1">
+        <style>
+             .flex-container{
+                      display:flex;
+                      background-color: rgb(63, 18, 77);
+                      border:1 px solid black;
+                      cursor:pointer;
+                      justify-content: space-between;
+                      }
+     a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}  
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;}
+
+    .flex-container > div {
+                             background-color: rgb(63, 18, 77);
+                             
+                             font-family:courier;
+                             box-sizing:border-box;
+                             border:none;
+                             justify-content:space-between;
+                             }
+                             
+              .border{ background-color:dodger rgb(226, 226, 224);
+                       box-sizing:border-box;
+                       border:none;
+                       padding: 1px 1px;
+                       justify-content: space-between;
+                       
+                       }
+               .border2{  
+                          background-color:dodger rgb(205, 226, 12);          
+                          box-sizing:border;
+                          border: none;
+                          }
+              
+    nav{ display:inline-flex;
+         
+
+    }
+    .cena:hover{
+      background-color: whitesmoke;
+    }
+    .cena{
+      background-color: rgb(63, 18, 77) ;
+      border-color:  rgb(63, 18, 77);
+    justify-content: space-between;}
+    
+  .item1{grid-area: header;}
+  .item2{grid-area: main;}
+  .item3{grid-area: footer;}
+  .grid-container{display:grid;
+                  grid-template-areas: '.header header header header header header'
+                                        '.main  main main main main main'
+                                        '.footer footer footer footer footer footer ' ;
+                  border:none;
+                  padding:5px; 
+                  background-color:  rgb(63, 18, 77);}
+  .grid-container > div {  text-align: center;
+                           padding:5px;}
+                           .btn-group .button{
+  background-color:  rgb(63, 18, 77);
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding:20px 30px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+  font-size: 20px;
+  border:none;
+  float : left;
+}
+.btn-group .button1{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button1:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button2{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button2:hover{
+  background-color: white;
+  color:black;
+}
+.btn-group .button3{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button3:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button4{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button4:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button5{
+  background-color:  rgb(63, 18, 77);  
+  color:white;
+}
+.btn-group .button5:hover{
+  background-color:white;
+  color:black;
+}
+#icon{
+  background-color:   rgb(63, 18, 77);
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.btn-group .button6{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+  
+}
+.btn-group .button6:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button7{
+  background-color:  rgb(63, 18, 77);
+  color:black;
+}
+.btn-group .button7:hover{
+  background-color: white;
+  color:black;
+}
+            .kovu{
+                background-color:rgb(197, 197, 223);
+                display:grid;
+                padding:25px;
+                justify-content: space-between;
+                grid-template-areas:'.left right right right ';
+                font-size:large;  }
+            .kovu1{ grid-area:left;}
+            .kovu2{ grid-area:right;}
+            .kovu > div {
+                
+                padding:15px;
+            }
+            .mint{ background-color:rgb(63, 219, 219);
+                   color:white;
+                   font-size:25px;}
+            .mellow{
+                background-color:rgb(143, 19, 155);
+                color:white;
+                font-weight:bolder;
+                font-size:23px;
+                border:2px solid rgb(143, 19, 155);
+            }
+            .melanin{
+                border:1px solid red;
+                color:black;
+                text-align:center;
+            }
+            .heritage{ display:grid;
+                       grid-template-areas:'.left left left right';
+                       background-color: rgb(119, 12, 12);
+                       color:white;
+                       
+                    }
+            .content1{ grid-area:left;
+                       text-align:left;}
+            .content2{ grid-area:right;}
+           
+        </style>
+        <title>Murang'a University of Technology</title>
+    </head>
+    <body>
+        <div class="flex-container" >
+            <div><p style="color:antiquewhite;"><button type="button" class="btn btn-link"><span class="bi bi-envelope-open"></span></button>info@mut.ac.ke<button type="button" class="btn btn-link"><span class="bi bi-telephone-fill"></span>+254 778-254-345</p></div>
+            <nav class="nav">
+            <button class="cena" ><div1 class="border" style="color:antiquewhite" ><a href="#" >Staff</a></div1></button><br>
+            
+                    <button class="cena"><div2 class="border"style="color:antiquewhite" ><a href="#" id="cena">Student portal</a></div2></button><br>
+                    <button class="cena"><div3 class="border"style="color:antiquewhite"><a href="#" id="cena">Masomo portal</a></div3></button><br>
+                    <button class="cena"><div4 class="border"style="color:antiquewhite"><a href="#" id="cena">Del</a></div4></button><br>
+                    <button class="cena"><div5 class="border"style="color:antiquewhite"><a href="#" id="cena">Alumni</a></div5></button><br>
+                    <button class="cena"><div6 class="border" style="color:antiquewhite"><a href="#" id="cena">Career Opportunities</a></div6></button>><br>
+                    <button class="cena"><div7 class="border"style="color:antiquewhite"><a href="#" id="cena">Tender</a></div7></button></nav><br>
+                                                            
+            <div8 class="border"style="color:antiquewhite"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg></div8>
+            <div9 style="color:rgb(199, 127, 32)"><button type="button" class="btn btn-primary"><span class="bi bi-linkedin"></span><button></div9>
+            <div10 style="color:rgb(185, 118, 29)"><button type="button" class="btn btn-primary"><span class="bi bi-twitter"></span></button></div10>
+            <div11 style="color:rgb(199, 135, 50)" ><button type="button" class="btn btn-primary"><span class="bi bi-instagram"></span></button></div11>
+            <div12 class="border2" style="background-color:rgb(63, 18, 77);flex-grow:2;color:antiquewhite">MUT REPOSITORY</div12>
+            </div>
+            <div class="grid-container">
+              <div class="item1" >
+                <img src="/about/mut.icon.png"  style="width:50px;height:60px;float:left"><p style="color:white;font-weight:bolder;font-size:larger;">Murang'a University Of Technology</p>
+              </div>
+              <div class="btn-group" id="icon">
+                  <a href="/index.html"> <button class="button button1" ::hover>Home</button></a>
+                  <a href="/about/about.html"><button class="button button2"::hover>About</button></a>
+                  <a href="/academics/academics.html">  <button class="button button3"::hover>Academics</button></a>
+                  <a href="/admissions/admission.html"> <button class="button button4"::hover>Admissions</button></a>
+                  <a href="/research/research.html"> <button class="button button5"::hover>Research</button></a>
+                  
+                  <a href="/library/library.html"> <button class="button button7"::hover>Library</button></a>
+                  </div>
+            
+            </div>
+        
+
+      
+     <div><div class="mint">
+            <h>Institutional Repository|Murang'a University Of Technology</h>
+         </div>
+        <div class="kovu">
+            <div class="kovu1">
+                <div class="mellow">
+                    <h>Search Repository</h>
+                    </div>
+                    <div class="melanin"><form> 
+                        <input type="text" id="search" name="search">
+                        <label for="textfild"></label><br><br>
+                        <input type="sumit" value="Go"><br><br>
+                    </form>
+                    <a href="#">Advanced Research</a><br><br>
+                </div><br><br>
+                <div class="mellow">
+                    <h>Browse</h>
+                </div>
+                <div class="melanin" >
+                    <h style="font-size:17px;">All Of Repository</h>
+                    <a href="#"><p>Communities & collection</p></a>
+                    <a href="#"><p>By Issue</p></a>
+                    <a href="#"><p>Authors</p></a>
+                    <a href="#"><p>Titles</p></a>
+                    <a href="#"><p>Subjects</p></a>
+                </div><br><br>
+                <div class="mellow">
+                    <h>My Account</h>
+                </div>
+                <div class="melanin">
+                    <a href="#"><p>Login</p></a>
+                    <a href="#"><p>Register</p></a>
+                </div><br><br>
+                <div class="mellow">
+                    <h>Discover</h>
+                </div>
+                <div  class="melanin">
+                    <h style="font-size:30px;color:rgb(63, 31, 31)">Author</h><br><br>
+                <a href="#">   Murang'a University of Technology (4801)</a><br>
+                <a href="#" >  Nyariki, Dickson M. (111)</a><br>
+                <a href="#">   Muriithi, Christopher M. (85)</a><br>
+                <a href="#">   Muketha, Geoffrey M. (66)</a><br>
+                <a href="#" >  Njoroge, Joseph M. (46)</a><br>
+                <a href="#" >  Opiyo, Sylvia A. (42)</a><br>
+                <a href="#">   Oteki, Evans B. (39)<br>
+                <a href="#">   Mugendi, Beatrice J. (32)</a><br>
+                <a href="#" >  Otieno, Richard J. (28)</a><br>
+                <a href="#" >  Tuitoek, Prisca J. (27)</a><br>
+                 <a href="#">  ... View More</a><br><br><br>
+                <h style="font-size:30px;color:rgb(63, 28, 28)">Subject</h><br><br>
+                   <a href="#">Kenya (20)</a><br>
+                   <a href="#">Secondary schools (3)</a><br>
+                   <a href="#">Board of Governors (BOG) (2),</a><br>
+                   <a href="#">County (2)</a><br>
+                   <a href="#">Nyamira County (2)</a><br>
+                   <a href="#">Parents Teachers Association (PTA) (2)</a><br>
+                   <a href="#">Principals (2)</a><br>
+                   <a href="#">principals (2)</a><br>
+                   <a href="#">Secondary school (2)</a><br>
+                   <a href="#">P1 teachers (1)</a><br>
+                   <a href="#">... View More</a><br><br>
+                    Date Issued<br>
+                    <a href="#">2010 - 2020 (16)</a><br>
+                    <a href="#">2001 - 2009 (4)</a><br><br><br>
+                    </div><br><br>
+                    <div class="mellow">
+                        <h>RSS Feeds</h>
+                    </div>
+                    <div class="melanin">
+                        <p>RSS 1.0</p><br>
+                        <p>RSS 2.0</p><br>
+                        <p>Atom</p><br>
+                    </div>
+                </div>
+                <div class="kovu2">
+                 <h>MUT INSTITUTIONAL REPOSITORY</h>
+                 <div>
+                    <div>
+                        <p>An Institutional Repository (IR) is a digital service that collects, preserves, and distributes digital material. It serves as the home for the intellectual output of MUT academic communities, and will ultimately include digital dissertations, faculty publications, digital special collections, open access publications, open educational resources and much more.</p><br><br>
+
+                    </div>
+                  <h>REPOSITORY</h><br><br>
+                  <p>Select a community to browse it's collections</p><br><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Books and Book chapters{79}</a><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Conference/ Workshops /Seminar/ Proceedings[90] </a><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Instituitional Memory[33]</a><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Journal Articles[837]</a><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Past Examination Papers[809]</a><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Policies/ Reports/ Statutes [2]</a><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Projects & Business plan [0]</a><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Speeches and Lectures [27]</a><br>
+                  <a href="#" style="color:rgb(83, 12, 12);font-size:25px;font-weight:500;text-decoration-line: none;">Theses & Dissertations [38</a><br><br><br>
+                  <h>Recently Added</h><br><br>
+                  <a href="#">Newspaper Framing of The War on Terror and its Implications for Human Rights: The Case of Garissa Terrorist Attacks in Kenya </a><br>
+                  <p>Ndavula, John O.; Mwangi, J. (2022-07)</p><br>
+                  <p>The study explores how the framing of the war on terror in Kenyan newspapers is re-shaping the human rights <br>discourse. It principally explores how Kenya's counterterrorism responses since the late 1990s have impacted ...</p><br><br><br><br>
+                  <a href="#">A New Complexity Metric for UML Sequence Diagrams </a><br>
+                  <p>Maina, Nevy K.; Muketha, Geoffrey M.; Wambugu, Geoffrey M. (2023-01)</p><br>
+                  <p>Object-Oriented Programming (OOP) has been promoted as a way to produce high-quality software while increasing <br>developer productivity through code reuse. Software systems and underlying designs get more extensive and more ...</p><br><br><br>
+                  <a href="#">Metrics For Evaluating Alerts in Intrusion Detection Systems</a><br>
+                  <p> Kiruki, Jane K.; Muketha, Geoffrey M.; Kamau, Gabriel N. (2023-01)</p><br>
+                  <p>Network intrusions compromise the network’s confidentiality, integrity and availability of resources. Intrusion <br>detection systems (IDSs) have been implemented to prevent the problem. Although IDS technologies are promising, ...</p><br><br><br>
+                  <a href="#">INFLUENCE OF COMMUNICATION STRUCTURE ON EMPLOYEE PERFORMANCE IN<br> SELECTED LARGE MANUFACTURING BUSINESSES IN ERITREA </a><br>
+                  <p>Weldeghebriel, Z. F.;; Mberia, H. K.;; Ndavula, John O. (International Journal of Communication and Public Relation <br>. Vol.7, Issue 2, No. 2, pp 13-40, 202, 2022-01)</p><br>
+                  <p>Purpose: This research is intended to determine the influence of communication structure on employee performance <br>in selected large manufacturing businesses in Eritrea. Manufacturing organizations, particularly the ...</p><br><br><br>
+                  <a href="#">Science Self-Efficacy and Career Decision Making: A Study Among Secondary Students in<br> Murang’a County, Kenya </a><br>
+                  <p>Muturi, Mary, N.; Wangeri, T. (2022-11)</p><br>
+                  <p>Self-confidence in science enhances the pursuance of science-related fields. Low self-belief in students’ ability to<br> perform in science subjects has been cited as a factor that has led to declined examination grades. ...</p><br><br>
+                  <a href="#" style="float:right;">View more</a><br><br>
+                      </div>
+                        
+              </div>
+
+            </div>
+        </div>
+        <div class="heritage">
+            <div class="content1">
+                <a href="mut.ac.ke" style="color:aliceblue;">MURANG'A UNIVERSITY OF TECHNOLOGY</a>
+                <p>copyright  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+                  </svg>  2015-2024 <a href="#" style="color:aliceblue;">Duraspace</a></p>
+                  <br>
+                  <a href="#" style="color:aliceblue;">Contact Us | Send Feedback</a>
+
+            </div>
+            <div class="content2">
+                <p>Library</p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width,intial-width=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">   
+<title>Murang'a University of Technology</title>
+<style>
+    .flex-container{
+                      display:flex;
+                      background-color: rgb(126, 75, 128);
+                      border:1 px solid black;
+                      cursor:pionter;
+                      justify-content: space-between;
+                      }
+     a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}  
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;}
+
+    .flex-container > div {
+                             background-color: rgb(126, 75, 128);
+                             
+                             font-family:courier;
+                             box-sizing:border-box;
+                             border:none;
+                             justify-content:space-between;
+                             }
+                             
+              .border{ background-color:dodger rgb(226, 226, 224);
+                       box-sizing:border-box;
+                       border:none;
+                       padding: 1px 1px;
+                       justify-content: space-between;
+                       
+                       }
+               .border2{  
+                          background-color:dodger rgb(205, 226, 12);          
+                          box-sizing:border;
+                          border: none;
+                          }
+               body{
+                box-sizing:border-box;
+                       border:none;
+                       
+                       border-width:100%;
+               border-radius:2px;
+               margin:0px;
+               padding:5px 5px; 
+               background-image: linear-gradient(to TOP, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url(/about/mut.kush.jpg);
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-attachment: fixed;
+               background-position: center;
+               }
+    nav{ display:inline-flex;
+         
+
+    }
+  .cena:hover{
+      background-color: whitesmoke;
+    }
+    .cena{
+      background-color:rgb(126, 75, 128) ;
+      border-color: rgb(126, 75, 128);
+    justify-content: space-between;}
+    
+  .item1{grid-area: header;}
+  .item2{grid-area: main;}
+  .item3{grid-area: footer;}
+  .grid-container{display:grid;
+                  grid-template-areas: '.header header header header header header'
+                                        '.main  main main main main main'
+                                        '.footer footer footer footer footer footer ' ;
+                  border:none;
+                  padding:5px; 
+                  background-color: rgb(126, 75, 128);}
+  .grid-container > div {  text-align: center;
+                           padding:5px;}
+                           .btn-group .button{
+  background-color: rgb(126, 75, 128);
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding:20px 30px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+  font-size: 20px;
+  border:none;
+  float : left;
+}
+.btn-group .button1{
+  background-color: rgb(126, 75, 128);
+  color:white;
+}
+.btn-group .button1:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button2{
+  background-color: rgb(126, 75, 128);
+  color:white;
+}
+.btn-group .button2:hover{
+  background-color: white;
+  color:black;
+}
+.btn-group .button3{
+  background-color: rgb(126, 75, 128);
+  color:white;
+}
+.btn-group .button3:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button4{
+  background-color: rgb(126, 75, 128);
+  color:white;
+}
+.btn-group .button4:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button5{
+  background-color: rgb(126, 75, 128);  
+  color:white;
+}
+.btn-group .button5:hover{
+  background-color:white;
+  color:black;
+}
+#icon{
+  background-color:  rgb(126, 75, 128);
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.btn-group .button6{
+  background-color: rgb(126, 75, 128);
+  color:white;
+  
+}
+.btn-group .button6:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button7{
+  background-color: rgb(126, 75, 128);
+  color:white;
+}
+.btn-group .button7:hover{
+  background-color: white;
+  color:black;
+}
+.buttongenje{
+  background-color: brown;
+  color:white;
+  border:none;
+  padding:20px 35px;
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor:pointer;
+  margin:4px 3px;
+  font-size:20px ;
+}
+.buttongenje:hover{
+  background-color:azure;
+  color:black;
+}
+.genje{
+  background-color: alice rgb(126, 75, 128);
+  border:none;
+  padding:50px 80px;
+}
+.genjeness{
+  background-color: rgb(238, 243, 247);
+  border:none;
+  padding:20px 32px;
+  margin:0px;
+}
+.buttonkunakuna{
+  background-color: red;
+  color:white;
+  transition-duration:0.4s;
+  display:inline-block;
+  cursor:pointer;
+  padding:23px 37px;
+  margin:4px 3px;
+  text-align:center;
+  text-decoration:none;
+  border:none;
+  float:center;
+}
+.buttonkunakuna:hover{
+  background-color: rgb(223, 158, 158);
+  color:white;
+}
+#cena{
+  justify-content: space-between;
+  text-decoration: none;
+}
+ 
+ </style>
+</head>
+<body>
+
+<div class="flex-container border" >
+<div><p style="color:antiquewhite;"><button type="button" class="btn btn-link"><span class="bi bi-envelope-open"></span></button>info@mut.ac.ke<button type="button" class="btn btn-link"><span class="bi bi-telephone-fill"></span>+254 778-254-345</p></div>
+<nav class="nav">
+<button class="cena" ><div1 class="border" style="color:antiquewhite" ><a href="#" >Staff</a></div1></button><br>
+
+        <button class="cena"><div2 class="border"style="color:antiquewhite" ><a href="#" id="cena">Student portal</a></div2></button><br>
+        <button class="cena"><div3 class="border"style="color:antiquewhite"><a href="#" id="cena">Masomo portal</a></div3></button><br>
+        <button class="cena"><div4 class="border"style="color:antiquewhite"><a href="#" id="cena">Del</a></div4></button><br>
+        <button class="cena"><div5 class="border"style="color:antiquewhite"><a href="#" id="cena">Alumni</a></div5></button><br>
+        <button class="cena"><div6 class="border" style="color:antiquewhite"><a href="#" id="cena">Career Opportunities</a></div6></button>><br>
+        <button class="cena"><div7 class="border"style="color:antiquewhite"><a href="#" id="cena">Tender</a></div7></button></nav><br>
+                                                
+<div8 class="border"style="color:antiquewhite"><button type="button" class="btn btn-light"><span class="bi bi-facebook"></span><button></div8>
+<div9 style="color:antiquewhite"><button type="button" class="btn btn-primary"><span class="bi bi-linkedin"></span><button></div9>
+<div10 style="color:antiquewhite"><button type="button" class="btn btn-primary"><span class="bi bi-twitter"></span></button></div10>
+<div11 style="color:antiquewhite" ><button type="button" class="btn btn-primary"><span class="bi bi-instagram"></span></button></div11>
+<div12 class="border2" style="background-color: rgb(126, 75, 128);flex-grow:2;color:antiquewhite">MUT REPOSITORY</div12>
+</div>
+<div class="grid-container">
+  <div class="item1" style="padding: bottom 5px;">
+    <img src="/about/mut.icon.png" alt="Mut icon" style="width:50px;height:60px;float:left"><p style="color:white;font-weight:bolder;font-size:larger;">Murang'a University Of Technology</p>
+  </div>
+  <div class="btn-group" id="icon">
+      <a href="/index.html"> <button class="button button1" ::hover>Home</button></a>
+      <a href="/about/about.html"><button class="button button2"::hover>About</button></a>
+      <a href="/academics/academics.html">  <button class="button button3"::hover>Academics</button></a>
+      <a href="/admissions/admission.html"> <button class="button button4"::hover>Admissions</button></a>
+      <a href="/research/research.html"> <button class="button button5"::hover>Research</button></a>
+      
+      <a href="/library/library.html" id="library"> <button class="button button7"::hover>Library</button></a>
+      </div>
+
+</div><br><br><br><br><br><br><br><br><br><br>
+
+<h style="font-size:70px;color:white;">Join Our Allumni<br>Association</h><br><br>
+<a href="#"><button class="buttongenje">Click Here For More</button></a><br><br><br><br>
+
+<div class="genje">
+<div class="genjeness">
+<h style="text-align:center;font-size:30px">GET AHEAD IN YOUR CARRER WITH A TOP RANKED UNIVERSITY</h><br>
+<P style="text-align:center;font-size:20px;">Apply for January 2024 intake.Apply now for our career-oriented programmes</P><br>
+<button class="buttonkunakuna" style="float:center;">Apply to Join us</button>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+

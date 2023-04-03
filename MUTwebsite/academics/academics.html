@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-width=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <title>  Murang'a University of Technology</title>
+        <style>
+              .flex-container{
+                      display:flex;
+                      background-color: rgb(63, 18, 77);
+                      border:1 px solid black;
+                      cursor:pointer;
+                      justify-content: space-between;
+                      }
+     a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}  
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;}
+
+    .flex-container > div {
+                             background-color: rgb(63, 18, 77);
+                             
+                             font-family:courier;
+                             box-sizing:border-box;
+                             border:none;
+                             justify-content:space-between;
+                             }
+                             
+              .border{ background-color:dodger rgb(226, 226, 224);
+                       box-sizing:border-box;
+                       border:none;
+                       padding: 1px 1px;
+                       justify-content: space-between;
+                       
+                       }
+               .border2{  
+                          background-color:dodger rgb(205, 226, 12);          
+                          box-sizing:border;
+                          border: none;
+                          }
+              
+    nav{ display:inline-flex;
+         
+
+    }
+    .cena:hover{
+      background-color: whitesmoke;
+    }
+    .cena{
+      background-color: rgb(63, 18, 77) ;
+      border-color:  rgb(63, 18, 77);
+    justify-content: space-between;}
+    
+  .item1{grid-area: header;}
+  .item2{grid-area: main;}
+  .item3{grid-area: footer;}
+  .grid-container{display:grid;
+                  grid-template-areas: '.header header header header header header'
+                                        '.main  main main main main main'
+                                        '.footer footer footer footer footer footer ' ;
+                  border:none;
+                  padding:5px; 
+                  background-color:  rgb(63, 18, 77);}
+  .grid-container > div {  text-align: center;
+                           padding:5px;}
+                           .btn-group .button{
+  background-color:  rgb(63, 18, 77);
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding:20px 30px;
+  transition-duration: 0.4s;
+  cursor:pointer;
+  font-size: 20px;
+  border:none;
+  float : left;
+}
+.btn-group .button1{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button1:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button2{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button2:hover{
+  background-color: white;
+  color:black;
+}
+.btn-group .button3{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button3:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button4{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button4:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button5{
+  background-color:  rgb(63, 18, 77);  
+  color:white;
+}
+.btn-group .button5:hover{
+  background-color:white;
+  color:black;
+}
+#icon{
+  background-color:   rgb(63, 18, 77);
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+.btn-group .button6{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+  
+}
+.btn-group .button6:hover{
+  background-color:white;
+  color:black;
+}
+.btn-group .button7{
+  background-color:  rgb(63, 18, 77);
+  color:white;
+}
+.btn-group .button7:hover{
+  background-color: white;
+  color:black;
+}
+            .ivar{
+                background-image:url("academicgenje.jpg");
+                background-position: absolute;
+                background-attachment:local;
+                background-size:cover;
+                background-repeat:no-repeat;
+                border:none;
+                height:500px;
+                width:100%;
+            }
+            .morio{
+                display:grid;
+                grid-template-areas:'.left left center center right right';
+                border:1px solid black;
+                background-color:black;
+
+            }
+            .kush1{grid-area:left;
+                   width:auto;}
+            .kush2{grid-area:center;
+                   width:auto;}
+            .kush3{grid-area:right;
+                   width:auto;}
+            .grid-containerz{
+                display:grid;
+                grid-template-areas: '.left right right';
+                border:none;
+                background-color:white;
+            }
+            .nan1{grid-area:left;}
+            .nan2{grid-area:right;}
+            .button{background-color:rgb(19, 129, 5);
+                    display:block;
+                    padding:20px 35px;
+                    color:white;
+                    font-size:20px;
+                    border:none;}
+            .button:hover{
+                background-color:rgb(130, 219, 142);
+                color:black;
+            }
+            .chelsea{
+                display:grid;
+                grid-template-areas:'.left center right';
+                border:1px solid black;
+            }
+            .chelsea1{grid-area:left;
+                      padding:15px;
+                      position:center;}
+            .chelsea2{grid-area:center;
+                      background-color:rgb(92, 216, 92);
+                      float:center;
+                      padding:15px;}
+            .chelsea3{grid-area:right;
+                      float:center;
+                      position:center;
+                      padding:15px;}
+            .cartis{ 
+                     display:grid;
+                     background-color: rgb(3, 0, 0);
+                     grid-template-areas:'left main menu right';
+                     padding:15px;
+                     border:none;
+    
+                     }
+            .cartis > div{
+                          color:white;
+                          text-align:center;
+                       }
+            .cartis1{ grid-area:left;}
+            .cartis2{ grid-area:main;}
+            .cartis3{ grid-area:menu;}
+            .cartis4{ grid-area: right;}
+            .a :link{ color:antiquewhite;
+                      text-decoration:none;
+                      background-color:rgb(241, 241, 240);
+                        }
+            .a :visited{ color:red;
+                         text-decoration:none;
+                         background-color:transparent;}
+            .a :active{ color:yellow;
+                        text-decoration:underline;
+                        background-color:transparent;
+                    }
+        </style>
+    </head>
+    <body>
+         <div class="flex-container" >
+            <div><p style="color:antiquewhite;"><button type="button" class="btn btn-link"><span class="bi bi-envelope-open"></span></button>info@mut.ac.ke<button type="button" class="btn btn-link"><span class="bi bi-telephone-fill"></span>+254 778-254-345</p></div>
+            <nav class="nav">
+            <button class="cena" ><div1 class="border" style="color:antiquewhite" ><a href="#" >Staff</a></div1></button><br>
+            
+                    <button class="cena"><div2 class="border"style="color:antiquewhite" ><a href="#" id="cena">Student portal</a></div2></button><br>
+                    <button class="cena"><div3 class="border"style="color:antiquewhite"><a href="#" id="cena">Masomo portal</a></div3></button><br>
+                    <button class="cena"><div4 class="border"style="color:antiquewhite"><a href="#" id="cena">Del</a></div4></button><br>
+                    <button class="cena"><div5 class="border"style="color:antiquewhite"><a href="#" id="cena">Alumni</a></div5></button><br>
+                    <button class="cena"><div6 class="border" style="color:antiquewhite"><a href="#" id="cena">Career Opportunities</a></div6></button>><br>
+                    <button class="cena"><div7 class="border"style="color:antiquewhite"><a href="#" id="cena">Tender</a></div7></button></nav><br>
+                                                            
+            <div8 class="border"style="color:antiquewhite"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg></div8>
+            <div9 style="color:rgb(199, 127, 32)"><button type="button" class="btn btn-primary"><span class="bi bi-linkedin"></span><button></div9>
+            <div10 style="color:rgb(185, 118, 29)"><button type="button" class="btn btn-primary"><span class="bi bi-twitter"></span></button></div10>
+            <div11 style="color:rgb(199, 135, 50)" ><button type="button" class="btn btn-primary"><span class="bi bi-instagram"></span></button></div11>
+            <div12 class="border2" style="background-color:rgb(63, 18, 77);flex-grow:2;color:antiquewhite">MUT REPOSITORY</div12>
+            </div>
+            <div class="grid-container">
+              <div class="item1" >
+                <img src="mut.icon.png"  style="width:50px;height:60px;float:left"><p style="color:white;font-weight:bolder;font-size:larger;">Murang'a University Of Technology</p>
+              </div>
+              <div class="btn-group" id="icon">
+                  <a href="/index.html"> <button class="button button1" ::hover>Home</button></a>
+                  <a href="/about/about.html"><button class="button button2"::hover>About</button></a>
+                  <a href="/academics/academics.html">  <button class="button button3"::hover>Academics</button></a>
+                  <a href="/admissions/admission.html"> <button class="button button4"::hover>Admissions</button></a>
+                  <a href="/research/research.html"> <button class="button button5"::hover>Research</button></a>
+                  
+                  <a href="/library/library.html"> <button class="button button7"::hover>Library</button></a>
+                  </div>
+            
+            </div>
+        <div class="ivar">
+
+        </div>
+        <div class="morio">
+            <div class="kush1">
+               <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+</svg>
+<h style="color:white;font-weight:bolder;font-size: large;">Prospective Student</h><br><br>
+<p  style="color:white;font-weight:bolder;font-size: large;">Prospective students can apply to join us,<br> by filling the application form here</p><br><br>
+<a href="#" style="color:red;">Apply to join us <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></a>
+            </div>
+            <div class="kush2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="whitecolor" style="color:white;" class="bi bi-person-badge" viewBox="0 0 16 16">
+  <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"/>
+</svg>
+<h  style="color:white;font-weight:bolder;font-size: large;">Current Status</h><br><br>
+<p  style="color:white;font-weight:bolder;font-size: large;">Please use the enquiry form to ask us your <br>question or to request a prospectus</p><br><br>
+<a href="#" style="color:red">Contact Us  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></a>
+            </div>
+            <div class="kush3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+</svg>
+<h  style="color:white;font-weight:bolder;font-size: large;">Alumni</h><br><br>
+<p  style="color:white;font-weight:bolder;font-size: large;">Explore the support at your fingertips for<br> your next lifelong learning experience</p><br><br>
+<a href="#" style="color:red">Visit our Alumni page   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></a>
+            </div>
+        </div>
+        <div class="grid-containerz">
+            <div class="nan1">
+                <img src="ndiaacademics.jpg" width="400px" height="450px"><br>
+                <h style="font-size:30px;color:rgb(15, 207, 221);font-weight:bolder;">Dr. John Ndia, Ph.D.</h><br><br>
+                <p style="font-size:large;color:green;">Dean, School of Computing and<br> Information Technology</p>
+
+            </div>
+            <div class="nan2">
+                <h style="font-size:30px;color:rgb(15, 207, 221);font-weight:bolder;">Welcome Message From The Dean</h><br><br><br>
+                <p>The School of Computing and Information Technology has two departments i.e Department of Computer Science<br>and Department of Information Technology. Currently the School offers<b> 2 PhD programmes, 2 Master<br>programmes, 5 undergraduate programmes, 3 Diplomas and 1 Certificate course.</b> The School is a regional<br>leader in teaching and research for students in undergraduate and postgraduate levels. </p><br><br>
+                <button class="button">Read More  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg> </button>
+                
+            </div>
+        </div>
+        <div class="chelsea">
+            <div class="chelsea1">
+                <img src="academics11.jpg" width="200px" height="150px" style="float:center;position: center;"><br><br>
+                <h  style="font-size:27px;font-weight:bolder;">Postgraduate Programs </h><br><br>
+                <button class="button"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+</svg>Read More</button>
+            </div>
+            <div class="chelsea2">
+                <img src="academics13.jpg" width="200px" height="150px" style="float:center;position:center;"><br><br>
+                <h style="font-size:27px;font-weight:bolder;">Undergraduate Programmes</h><br><br>
+                <button class="button"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+</svg>Read More</button>
+
+            </div>
+            <div class="chelsea3">
+                <img src="academics12.jpg" width="200px" height="150px" style="float:center;position:center;"><br><br>
+                <h  style="font-size:27px;font-weight:bolder;">MUT TVET Programmes</h><br><br>
+                <button class="button"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+</svg>Read More</button>
+                
+            </div>
+        </div>
+ <div class="cartis">
+          <div class="cartis1">
+           <address>
+            P.O Box 75-10200<br>
+            Muranga, Kenya<br>
+            Email: info@mut.ac.ke<br>
+
+            Tell: +254-771-370-824<br>
+
+            Open: Monday to Friday 8 am to 5 pm<br>
+            Closed: Weekends & Public Holidays
+
+
+        </address>
+        </div>>
+        <div class="cartis2">
+           <p> Quick Links</p><br><br>
+            <a href="#"><p>Career Opportunities</p></a>
+            <a href="#"><p>Meeting Scheduler</p></a>
+            <a href="#"><p>Work Study (Students)</p></a>
+            <a href="#"><p>Corruption Reporting</p></a>
+            <a href="#"><p>IS Policy Statement</p></a>
+            <a href="#"><p>Student Request Forms</p></a>    
+            <a href="#"><p>Web Update Request Form</p></a>
+            <a href="#"><p>Stakeholders Feedback Form</p></a>
+        </div>
+        <div class="cartis3">
+           <p> Campus Life</p><br><br>
+           <a href="#"><p>Clubs & Societies</p></a>
+           <a href="#"><p>Student Timetables</p></a>
+           <a href="#"><p>Hostel & Accommodation</p></a>
+           <a href="#"><p>Masomo Portal Student User Manual</p></a>
+           <a href="#"><p>Masomo Portal Lecturer Manual</p></a>
+        </div>
+        <div class="cartis4">
+            <p>MUT Portals</p><br><br>
+            <a href="#"><p>Library</p></a>
+            <a href="#"><p>ICT Helpdesk</p></a>
+            <a href="#"><p>Masomo Portal</p></a>
+            <a href="#">Staff / Student Mail</p></a>
+            <a href="#"><p>Staff & Student Portal</p></a>
+            <a href="#"><p>MUT Web Conference</p></a>
+            <a href="#"><p>KENNET Web Conference</p></a>
+
+
+
+        </div>
+    </div>
+    </body>
+</html>
